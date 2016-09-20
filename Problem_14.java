@@ -3,7 +3,6 @@ import static java.lang.System.out;
 
 class Problem_14 {
 
-   
    private static Map<Integer,Integer> hash;
 
    public static void main(String args[]) {
@@ -51,7 +50,5 @@ class Problem_14 {
       hash.put(number,sequence_length);
       return sequence_length;
    }   
-
-
 
 }
