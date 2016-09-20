@@ -15,7 +15,7 @@ class Problem_14 {
       for (int i = 1; i <= 999999; ++i) {
           sequence_length = calculateSequenceLength(i,hash);
           if (sequence_length > vMax) { 
-          	 vMax = sequence_length;
+             vMax = sequence_length;
              starting_number = i;
           }
       }
