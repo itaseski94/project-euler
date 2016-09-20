@@ -42,8 +42,8 @@ class Problem_14 {
           } else {
              i = 3 * i + 1;
              if (hash.containsKey(i)) {
-              	hash.put(number,hash.get(i) + sequence_length);
-             	  return hash.get(i) + sequence_length;
+              	 hash.put(number,hash.get(i) + sequence_length);
+             	 return hash.get(i) + sequence_length;
              }
           } 	  
           ++sequence_length;
